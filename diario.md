@@ -87,6 +87,8 @@ git commit -m "feat: añadir Opción 6 y actualizar descripción de Opción 3"
 git push
 ```
 
+![feature 6](./capturas/feature-6.png)
+
 ## Tarea 4 — Pull Request 1: Feature A a dev
 
 Creamos la pull request desde la `feature-5` a `dev`
