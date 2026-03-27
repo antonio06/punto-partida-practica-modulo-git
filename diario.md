@@ -72,3 +72,5 @@ Y actualizamos `dev`
 ```git
 git pull origin dev
 ```
+
+## Tarea 5 — Pull Request 2: Feature B a dev, conflicto
