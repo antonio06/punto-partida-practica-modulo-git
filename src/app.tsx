@@ -31,6 +31,14 @@ const OPTIONS: Option[] = [
     featureFlag: true,
   },
   {
+    id: 5,
+    title: "Opción 5",
+    description: "Pull Request",
+    message:
+      "Un Pull Request es una propuesta formal para incorporar cambios de una rama a otra. Permite revisar el código antes de mergear y deja un historial claro de qué se hizo y por qué.",
+    featureFlag: false,
+  },
+  {
     id: 6,
     title: "Opción 6",
     description: "gitignore",
