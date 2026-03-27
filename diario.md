@@ -55,6 +55,38 @@ git push
 
 ![feature 5](./capturas/feature-5.png)
 
+## Tarea 3 — Feature branch B: añadir la Opción 6 (aquí está el conflicto)
+
+Volvemos a `dev` y creamos la rama `feature/opcion-6`
+
+
+## Tarea 4 — Pull Request 1: Feature A a dev y añadimos el siguiente objeto al array.
+
+```Js
+{
+  id: 6,
+  title: "Opción 6",
+  description: "gitignore",
+  message:
+    "El fichero .gitignore le dice a Git qué ficheros debe ignorar. Úsalo para excluir ficheros de entorno (.env), dependencias (node_modules) y cualquier cosa que no deba estar en el repositorio.",
+  featureFlag: false,
+},
+```
+
+Y para el objeto `Opción 3` cambiamos el valor de la `description`
+
+```js
+description: "Flujo profesional",
+```
+
+Hacemos los siguientes comandos para subir los cambios.
+
+```git
+git add .
+git commit -m "feat: añadir Opción 6 y actualizar descripción de Opción 3"
+git push
+```
+
 ## Tarea 4 — Pull Request 1: Feature A a dev
 
 Creamos la pull request desde la `feature-5` a `dev`
@@ -74,3 +106,5 @@ git pull origin dev
 ```
 
 ## Tarea 5 — Pull Request 2: Feature B a dev, conflicto
+
+Creamos la rama `feature/opcion-6` hacia `dev`
