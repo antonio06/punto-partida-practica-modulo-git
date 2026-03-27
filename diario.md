@@ -112,3 +112,6 @@ git pull origin dev
 Creamos la rama `feature/opcion-6` hacia `dev`
 
 ![pull request 2](./capturas/pull-request-2.png)
+
+Resolvemos los conflictos y mergeamos.
+
