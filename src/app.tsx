@@ -25,17 +25,17 @@ const OPTIONS: Option[] = [
   {
     id: 3,
     title: "Opción 3",
-    description: "Flujo de trabajo",
+    description: "Flujo profesional",
     message:
       "Un fork es una copia de un repositorio en tu cuenta. Puedes proponer cambios al original mediante un Pull Request.",
     featureFlag: true,
   },
   {
-    id: 5,
-    title: "Opción 5",
-    description: "Pull Request",
+    id: 6,
+    title: "Opción 6",
+    description: "gitignore",
     message:
-      "Un Pull Request es una propuesta formal para incorporar cambios de una rama a otra. Permite revisar el código antes de mergear y deja un historial claro de qué se hizo y por qué.",
+      "El fichero .gitignore le dice a Git qué ficheros debe ignorar. Úsalo para excluir ficheros de entorno (.env), dependencias (node_modules) y cualquier cosa que no deba estar en el repositorio.",
     featureFlag: false,
   },
 ];
