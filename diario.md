@@ -110,3 +110,5 @@ git pull origin dev
 ## Tarea 5 — Pull Request 2: Feature B a dev, conflicto
 
 Creamos la rama `feature/opcion-6` hacia `dev`
+
+![pull request 2](./capturas/pull-request-2.png)
