@@ -1,0 +1,56 @@
+## Diario laboratorio Git
+
+## Tarea 1 — Fork y configuración inicial
+
+Primero hacemos un fork del repositorio original
+
+![fork](./capturas/fork.png)
+
+Añado la rama upstream del repositorio original.
+
+```git
+git remote add upstream https://github.com/Lemoncode/punto-partida-practica-modulo-git.git
+```
+
+Y hacemos el comando para ver que tenemos tanto el repo original (`upstream`) como el `origin` nuestro.
+
+```git
+git remote -v
+```
+
+Creamos la rama `dev` desde `main` y la subimos.
+
+![dev](./capturas/dev.png)
+
+## Tarea 2 — Feature branch A: añadir la Opción 5
+
+Creamos la rama `feature/opcion-5` desde `dev` y la subimos al repositorio
+
+Aplicamos los cambios tanto de añadir el siguiente objeto al array de `options`
+
+```js
+{
+  id: 5,
+  title: "Opción 5",
+  description: "Pull Request",
+  message:
+    "Un Pull Request es una propuesta formal para incorporar cambios de una rama a otra. Permite revisar el código antes de mergear y deja un historial claro de qué se hizo y por qué.",
+  featureFlag: false,
+},
+```
+
+Y para el objeto `Opción 3` cambiamos el valor de la `description`
+
+```js
+description: "Flujo de trabajo",
+```
+
+Hacemos los siguientes comandos para subir los cambios.
+
+```git
+git add .
+git commit -m "feat: añadir Opción 5 y actualizar descripción de Opción 3"
+git push
+```
+
+![feature 5](./capturas/feature-5.png)
