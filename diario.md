@@ -54,3 +54,21 @@ git push
 ```
 
 ![feature 5](./capturas/feature-5.png)
+
+## Tarea 4 — Pull Request 1: Feature A a dev
+
+Creamos la pull request desde la `feature-5` a `dev`
+
+![create pull](./capturas/create-pull.png)
+
+Y mergeamos a dev los cambios.
+
+![merge pull request](./capturas/merge-pull-request.png)
+
+**Importante** se puede borrar la rama.
+
+Y actualizamos `dev`
+
+```git
+git pull origin dev
+```
